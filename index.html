@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vũ Thị Thanh Bình — Social Content Creator</title>
+  <meta name="description" content="Social Content Creator · Social Commerce Host · Brand Storyteller. Building scroll-stopping stories that move product and build brands." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">BÌNH<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#impact" class="nav-link">Impact</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#contact" class="nav-link cta-link">Let's Talk</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#impact" class="mobile-link">Impact</a></li>
+      <li><a href="#experience" class="mobile-link">Experience</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#education" class="mobile-link">Education</a></li>
+      <li><a href="#contact" class="mobile-link">Let's Talk</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">
+        <span class="badge-dot"></span>
+        Available for full-time · Class of 2026
+      </div>
+      <h1 class="hero-title reveal-up">
+        <span class="line">Vũ Thị</span>
+        <span class="line gradient-text">Thanh Bình</span>
+      </h1>
+      <p class="hero-roles reveal-up">
+        <span class="role-tag">Social Content Creator</span>
+        <span class="role-sep">·</span>
+        <span class="role-tag">Social Commerce Host</span>
+        <span class="role-sep">·</span>
+        <span class="role-tag">Brand Storyteller</span>
+      </p>
+      <p class="hero-quote reveal-up">
+        "I don't just make content — I build<br/>
+        <em>scroll-stopping stories</em> that move product and build brands."
+      </p>
+      <div class="hero-actions reveal-up">
+        <a href="#experience" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-image-wrap reveal-right">
+      <div class="hero-image-frame">
+        <div class="hero-image-placeholder">
+          <!-- Replace with: <img src="assets/images/profile.jpg" alt="Vũ Thị Thanh Bình" /> -->
+          <div class="photo-placeholder">
+            <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="100" cy="75" r="40" fill="rgba(255,255,255,0.1)"/>
+              <ellipse cx="100" cy="160" rx="65" ry="45" fill="rgba(255,255,255,0.1)"/>
+            </svg>
+            <p>Your Photo Here</p>
+          </div>
+        </div>
+        <div class="hero-image-tag tag-1">📍 Hanoi, Vietnam</div>
+        <div class="hero-image-tag tag-2">2+ Years in Content</div>
+        <div class="hero-image-tag tag-3">GPA 3.62 / 4.0</div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label reveal-up">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <h2 class="section-title">Auditing student<br/>turned full-time<br/><span class="gradient-text">content creator.</span></h2>
+          <p class="about-desc">With 2+ years across e-commerce, tech, and lifestyle — I'm fluent in TikTok hooks, Shopee & TikTok Shop livestreams, and the analytics behind what actually works.</p>
+          <p class="about-desc">Data-literate enough to read the numbers, creative enough to know when to trust the hook instead.</p>
+          <div class="about-meta">
+            <div class="meta-item">
+              <span class="meta-label">Location</span>
+              <span class="meta-value">Hanoi, Vietnam</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Experience</span>
+              <span class="meta-value">2+ Years</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Status</span>
+              <span class="meta-value available">Available</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual reveal-right">
+          <!-- Replace with: <img src="assets/images/about.jpg" alt="At work" class="about-img" /> -->
+          <div class="about-img-placeholder">
+            <div class="platform-badges">
+              <div class="platform-badge tiktok">TikTok</div>
+              <div class="platform-badge shopee">Shopee</div>
+              <div class="platform-badge facebook">Facebook</div>
+              <div class="platform-badge yt">Reels</div>
+            </div>
+          </div>
+          <div class="about-card card-float">
+            <div class="card-icon">🏆</div>
+            <div>
+              <div class="card-title">MB Fast Track</div>
+              <div class="card-sub">Runner-up · Feb 2026</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT -->
+  <section class="impact section" id="impact">
+    <div class="container">
+      <div class="section-label reveal-up">02 — Impact At A Glance</div>
+      <h2 class="section-title centered reveal-up">Numbers that<br/><span class="gradient-text">tell the story.</span></h2>
+      <div class="stats-grid">
+        <div class="stat-card reveal-up" data-delay="0">
+          <div class="stat-icon">#1</div>
+          <div class="stat-value" data-target="1" data-prefix="#" data-suffix="">1</div>
+          <div class="stat-label">Revenue Rank<br/>E-Commerce Host</div>
+          <div class="stat-bar"><div class="stat-bar-fill" style="width:100%"></div></div>
+        </div>
+        <div class="stat-card reveal-up" data-delay="100">
+          <div class="stat-icon">📦</div>
+          <div class="stat-value counter" data-target="400" data-suffix="+">0</div>
+          <div class="stat-label">Tech SKUs<br/>Per Livestream</div>
+          <div class="stat-bar"><div class="stat-bar-fill" style="width:85%"></div></div>
+        </div>
+        <div class="stat-card reveal-up" data-delay="200">
+          <div class="stat-icon">🚀</div>
+          <div class="stat-value counter" data-target="100" data-suffix="K+">0</div>
+          <div class="stat-label">Organic Reach<br/>Per Video</div>
+          <div class="stat-bar"><div class="stat-bar-fill" style="width:75%"></div></div>
+        </div>
+        <div class="stat-card reveal-up" data-delay="300">
+          <div class="stat-icon">📈</div>
+          <div class="stat-value counter" data-target="30" data-prefix="+" data-suffix="%">0</div>
+          <div class="stat-label">Engagement Lift<br/>In 6 Months</div>
+          <div class="stat-bar"><div class="stat-bar-fill" style="width:65%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-label reveal-up">03 — Experience</div>
+      <h2 class="section-title reveal-up">Where I've built<br/><span class="gradient-text">real impact.</span></h2>
+
+      <div class="timeline">
+
+        <!-- Job 1 -->
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jan 2026 – Present</div>
+          <div class="timeline-card">
+            <div class="job-header">
+              <div>
+                <div class="job-company">The Hunter Group</div>
+                <div class="job-title">UGC / Brand Collab — Social Content Creator</div>
+              </div>
+              <div class="job-badge current">Current</div>
+            </div>
+            <div class="job-project">
+              <div class="project-label">PROJECT</div>
+              <div class="project-name">Unilever TikTok UGC Campaign — Gen Z Conversion Series</div>
+            </div>
+            <!-- Replace with: <img src="assets/images/hunter-work.jpg" alt="Unilever Campaign" class="job-img" /> -->
+            <div class="job-img-placeholder">Campaign Visuals</div>
+            <ul class="job-points">
+              <li>Independently produced end-to-end UGC videos for Unilever's TikTok channels — from concept ideation and scripting to on-camera performance, filming, and editing.</li>
+              <li>Delivered platform-native content engineered for Gen Z audiences, focused on scroll-stopping hooks and authentic brand storytelling.</li>
+              <li>Managed the full creative pipeline solo, ensuring consistent output aligned with Unilever's brand guidelines and campaign goals.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="tag">Unilever Brand Partner</span>
+              <span class="tag">End-to-end UGC Pipeline</span>
+              <span class="tag">Gen Z Content</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item reveal-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jan 2025 – May 2026</div>
+          <div class="timeline-card">
+            <div class="job-header">
+              <div>
+                <div class="job-company">Hoang Ha Mobile</div>
+                <div class="job-title">E-commerce — Social Commerce Host & Content Strategist</div>
+              </div>
+              <div class="job-badge highlight">#1 Revenue</div>
+            </div>
+            <div class="job-project">
+              <div class="project-label">PROJECT</div>
+              <div class="project-name">Hoang Ha Daily Live — TikTok Shop & Shopee Commerce Streaming</div>
+            </div>
+            <!-- Replace with: <img src="assets/images/hoangha-live.jpg" alt="Hoang Ha Livestream" class="job-img" /> -->
+            <div class="job-img-placeholder">Livestream Highlights</div>
+            <ul class="job-points">
+              <li>Fronted daily shoppable livestreams on Shopee & TikTok Shop, navigating 400+ tech SKUs per session with real-time Q&A and live audience engagement.</li>
+              <li>Achieved <strong>#1 revenue ranking</strong> among all hosts on the channel — driven by product storytelling, trust-first selling, and sharp conversion tactics.</li>
+              <li>Built a loyal repeat-viewer base through consistent on-camera presence, translating product knowledge into purchase decisions.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="tag">#1 Revenue Rank</span>
+              <span class="tag">400+ SKUs / Session</span>
+              <span class="tag">Shopee</span>
+              <span class="tag">TikTok Shop</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 3 -->
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Nov 2024 – May 2025</div>
+          <div class="timeline-card">
+            <div class="job-header">
+              <div>
+                <div class="job-company">SaDesign Software</div>
+                <div class="job-title">Tech / SaaS — Social Media Content Creator</div>
+              </div>
+            </div>
+            <div class="job-project">
+              <div class="project-label">PROJECT</div>
+              <div class="project-name">SaDesign Social Takeover — TikTok & Facebook Growth Campaign</div>
+            </div>
+            <!-- Replace with: <img src="assets/images/sadesign-content.jpg" alt="SaDesign Content" class="job-img" /> -->
+            <div class="job-img-placeholder">Content Samples</div>
+            <ul class="job-points">
+              <li>Took sole ownership of TikTok & Facebook content pipeline — scripting, filming, editing, and publishing across both platforms.</li>
+              <li>Translated complex software products into scroll-friendly stories, growing channel engagement <strong>+30% in 6 months</strong> through data-informed hooks and consistent cadence.</li>
+              <li>Drove measurable sales lift by bridging technical product features with relatable, platform-native content formats.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="tag">+30% Engagement in 6 Months</span>
+              <span class="tag">End-to-end Production</span>
+              <span class="tag">TikTok</span>
+              <span class="tag">Facebook</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 4 -->
+        <div class="timeline-item reveal-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Oct 2023 – Oct 2024</div>
+          <div class="timeline-card">
+            <div class="job-header">
+              <div>
+                <div class="job-company">Pigme Eyewear</div>
+                <div class="job-title">Lifestyle / Fashion — Social Content Creator</div>
+              </div>
+            </div>
+            <div class="job-project">
+              <div class="project-label">PROJECT</div>
+              <div class="project-name">Pigme Gen Z Content Series — Viral TikTok & Livestream Support</div>
+            </div>
+            <!-- Replace with: <img src="assets/images/pigme-content.jpg" alt="Pigme Content" class="job-img" /> -->
+            <div class="job-img-placeholder">Viral Content Clips</div>
+            <ul class="job-points">
+              <li>Produced viral-first TikTok content for a Gen Z fashion brand — writing hooks, video scripts, and directing e-commerce livestream support.</li>
+              <li>Multiple videos surpassed <strong>100K+ organic views</strong>, directly contributing to increased site traffic and e-commerce conversion.</li>
+              <li>Developed deep insight into Gen Z content behaviour — applying trend-responsive formats that balanced brand aesthetic with platform virality.</li>
+            </ul>
+            <div class="job-tags">
+              <span class="tag">100K+ Organic Views</span>
+              <span class="tag">Gen Z Audience Insight</span>
+              <span class="tag">TikTok</span>
+              <span class="tag">E-commerce Live</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label reveal-up">04 — Skill Set</div>
+      <h2 class="section-title reveal-up">Built for the<br/><span class="gradient-text">creator economy.</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal-up" data-delay="0">
+          <div class="skill-icon">▶</div>
+          <h3 class="skill-name">Short-form Video</h3>
+          <div class="skill-tools">
+            <span>TikTok</span><span>Reels</span><span>Hooks</span><span>Viral Structure</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" data-delay="100">
+          <div class="skill-icon">◉</div>
+          <h3 class="skill-name">Livestream Hosting</h3>
+          <div class="skill-tools">
+            <span>Shopee</span><span>TikTok Shop</span><span>Sales Conversion</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" data-delay="200">
+          <div class="skill-icon">✂</div>
+          <h3 class="skill-name">Video Production</h3>
+          <div class="skill-tools">
+            <span>Scripting</span><span>Filming</span><span>CapCut</span><span>Editing</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" data-delay="300">
+          <div class="skill-icon">✦</div>
+          <h3 class="skill-name">Brand Storytelling</h3>
+          <div class="skill-tools">
+            <span>Narrative Arc</span><span>On-camera Presence</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" data-delay="400">
+          <div class="skill-icon">↗</div>
+          <h3 class="skill-name">Content Strategy</h3>
+          <div class="skill-tools">
+            <span>Campaign Planning</span><span>Performance Tracking</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" data-delay="500">
+          <div class="skill-icon">⚙</div>
+          <h3 class="skill-name">AI-Powered Workflow</h3>
+          <div class="skill-tools">
+            <span>ChatGPT</span><span>Canva AI</span><span>CapCut AI</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="education section" id="education">
+    <div class="container">
+      <div class="section-label reveal-up">05 — Education & Achievements</div>
+      <div class="edu-grid">
+        <div class="edu-card reveal-left">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-content">
+            <div class="edu-school">National Economics University</div>
+            <div class="edu-period">2021 – 2026 · Hanoi, Vietnam</div>
+            <div class="edu-gpa">GPA: <strong>3.62 / 4.0</strong></div>
+          </div>
+        </div>
+        <div class="edu-card award reveal-right">
+          <div class="edu-icon">🏆</div>
+          <div class="edu-content">
+            <div class="edu-school">MB Fast Track Competition</div>
+            <div class="edu-period">Runner-up · February 2026</div>
+            <div class="edu-gpa">Conducted by MB Bank</div>
+          </div>
+          <div class="award-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact-inner reveal-up">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title">Let's build something<br/><span class="gradient-text">scroll-stopping.</span></h2>
+        <p class="contact-desc">Available for full-time roles, brand partnerships, and creative collaborations.</p>
+        <div class="contact-links">
+          <a href="mailto:thanhthanhbinhbinh123@gmail.com" class="contact-link">
+            <span class="contact-icon">✉</span>
+            <span>thanhthanhbinhbinh123@gmail.com</span>
+          </a>
+          <a href="tel:+84913359636" class="contact-link">
+            <span class="contact-icon">📞</span>
+            <span>0913 359 636</span>
+          </a>
+          <div class="contact-link location">
+            <span class="contact-icon">📍</span>
+            <span>Hanoi, Vietnam</span>
+          </div>
+        </div>
+        <a href="mailto:thanhthanhbinhbinh123@gmail.com" class="btn-primary large">Say Hello →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">BÌNH<span class="dot">.</span></div>
+        <p class="footer-copy">© 2026 Vũ Thị Thanh Bình · Social Content Creator</p>
+        <p class="footer-built">Built with ♥ for impact</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
